@@ -4,9 +4,9 @@
 일정 : 2021. 02. 06 ~ 2021. 03. 01.
 
 ### 담당 인원 
-* 김재욱 : `BE` [@NyangUk](www.github.com/NyangUk)
-* 유재서 : `BE` [@jaejae-yoo](www.github.com/jaejae-yoo)
-* 이은성 : `FE` [@eun-seong](www.github.com/eun-seong)
-* 이주호 : `FE` [@Zzu-h](www.github.com/Zzu-h)
+* 김재욱 : `BE` [@NyangUk](https://www.github.com/NyangUk)
+* 유재서 : `BE` [@jaejae-yoo](https://www.github.com/jaejae-yoo)
+* 이은성 : `FE` [@eun-seong](https://www.github.com/eun-seong)
+* 이주호 : `FE` [@Zzu-h](https://www.github.com/Zzu-h)
 
 
