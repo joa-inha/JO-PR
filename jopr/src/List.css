@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Gugi&family=Hi+Melody&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap');
+
+
+a{
+    text-decoration: none;
+    color: #1c0e22;
+}
+
+.banner{
+    width: 100%;
+    min-height: 60px;
+    height: fit-content;
+}
+
+.list-container{
+    min-height: 60px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Hi Melody', cursive;
+    font-size: 1.5em;
+}
+.total-count{
+    min-height: 80px;
+    display: flex;
+    align-items: flex-end;
+}
+.total-count span{
+    margin-left: 11%;
+    font-size: smaller;
+}
+.list-container table{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-collapse: collapse;
+    border-bottom: 2px solid #462456;
+}
+.list-container th{
+    background-color: #E0AFD5;
+    color: white;
+    border-top: 2px solid #462456;
+    border-bottom: 2px solid #462456;
+}
+.list-container td{
+    border-bottom: 1px solid #462456;
+    color: #1c0e22;
+}
+.title-list{
+    text-align: left;
+    padding-left: 4%;
+}
+td:nth-child(1){
+    width: 5%;
+}
+td:nth-child(3){
+    width: 8%;
+}
+td:nth-child(4){
+    width: 15%;
+}
+td:nth-child(5){
+    width: 8%;
+}
+
+.pagination{
+    min-height: 100px;
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+}
+.pagination ul li{
+    display: inline;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: 'Gamja Flower', cursive;
+    color: #1c0e22;
+}
+.pagination a{
+    display: inline;
+    list-style-type: none;
+}
