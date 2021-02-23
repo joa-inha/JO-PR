@@ -3,6 +3,7 @@ import './Header.css'
 
 function  ListHead({boardName}){
     const styleOfhead = {
+        minWidth: 'fit-content',
         width: '80%',
         minHeight: '60px',
         marginLeft: 'auto',

@@ -8,6 +8,9 @@ import { Link, NavLink } from 'react-router-dom';
 function  Header(){
     // 로고 이미지
     // 인스타그램 
+
+    // 테스트를 위한 임의 주소 변경 notice -> posts
+    // 테스트를 위한 임의 주소 변경 board -> albums
     const ActiveStyle = {
         background: '#ffffff',
         color: '#E0AFD5',

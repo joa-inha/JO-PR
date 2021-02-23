@@ -100,7 +100,7 @@ export function  SpecificList({category}){
                         전체 {data.length}개
                     </span>
                 </div>
-                <Table data = {currentPosts} indexOfFirstPost = {indexOfFirstPost}/>
+                <Table category = {category} data = {currentPosts} indexOfFirstPost = {indexOfFirstPost}/>
 
                 <Pagination
                     postsPerPage={postsPerPage}

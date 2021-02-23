@@ -10,6 +10,8 @@ import Schedule from './Schedule';
 
 function App() {
   return (
+    // 테스트를 위한 임의 주소 변경 notice -> posts
+    // 테스트를 위한 임의 주소 변경 board -> albums
     <>
       <Header/>
 

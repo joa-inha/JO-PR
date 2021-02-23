@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 
 export function MainPageTable({data}){
@@ -22,7 +23,14 @@ export function MainPageTable({data}){
     );
 }
 
-export function  Table({data, indexOfFirstPost}){
+export function  Table({category, data, indexOfFirstPost}){
+    var categories;
+    if(category === "posts")
+        categories = "notice";
+    else if(category === "albums")
+        categories = "board";
+    else
+        categories = category;
     return(
         <table>
             <thead>
@@ -36,13 +44,14 @@ export function  Table({data, indexOfFirstPost}){
             </thead>
             <tbody>
                 {data.map((datum, index) => (
-                    //Route
                     <tr key={datum.id}>
                         <td>
                             {indexOfFirstPost + index + 1}
                         </td>
                         <td className="title-list">
-                            {datum.title}
+                            <Link to = {`${categories}/${datum.id}`}>
+                                {datum.title}
+                            </Link>
                         </td>
                         <td>
                             {datum.userId}
